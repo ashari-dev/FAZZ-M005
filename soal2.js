@@ -4,9 +4,9 @@ function printSquare(x) {
   for (let i = 0; i < x; i++) {
     for (let j = 0; j < x; j++) {
       if (i === 0 || i === x - 1 || j === 0 || j === x - 1) {
-        hasil += "* ";
+        result += "*";
       } else {
-        hasil += "  ";
+        result += " ";
       }
     }
     result += "\n";
