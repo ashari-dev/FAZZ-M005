@@ -1,13 +1,13 @@
 function printTriangle(x) {
-  let hasil = "";
+  let result = "";
 
   for (let i = 1; i <= x; i++) {
     for (let j = 1; j <= i; j++) {
-      hasil += j;
+      result += j;
     }
-    hasil += "\n";
+    result += "\n";
   }
-  return hasil;
+  return result;
 }
 
 console.log(printTriangle(5));
